@@ -1,0 +1,4 @@
+__pycache__/
+state/seen.json
+out/
+.DS_Store
