@@ -6,6 +6,10 @@
 
 - （等 digest 首推后由老板点名）
 
-**候补观察**（2026-10-30 首次全量扫描，供老板参考）
-- [8 分] Build WhatsApp and Instagram outreach campaigns for clients — 给客户建 WhatsApp/IG 外联 campaign，agent 代运营。与我们资产匹配度高（Mac 常开 + 浏览器自动化），可先做一个"话术生成 + 排期"的内部 demo。
-- [6 分] Extract sales metrics from call transcripts — 从通话记录抽销售指标。适合做小工具 demo（SB3 无关，纯 NLP/coding）。
+## 已交付待审（2026-10-30，老板拍板"好"后开工）
+
+- **[8 分] Build WhatsApp and Instagram outreach campaigns for clients** → `demos/whatsapp-ig-campaign/`
+  - 输入业务 brief JSON → 输出 campaign.md（定位/消息矩阵/合规清单）+ messages.csv（可粘贴成稿）+ plan.json
+  - 模板兜底 + udoge 27B 润色（离线自动降级）；合规硬断言：WA 首条/收尾必带 STOP、IG 首条禁外链
+  - 样例成稿（山雾咖啡烘焙）：`demos/whatsapp-ig-campaign/out/山雾咖啡烘焙/campaign.md`
+  - 已知小瑕疵：英文版被 27B 混进了中文 STOP 尾行（可迭代：润色后按语言回填语言匹配的退订句）
