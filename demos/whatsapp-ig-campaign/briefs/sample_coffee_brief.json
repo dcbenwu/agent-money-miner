@@ -1,0 +1,16 @@
+{
+  "business_name": "山雾咖啡烘焙",
+  "city": "杭州",
+  "product": "小批量新鲜烘焙的精品咖啡豆",
+  "price": "¥88/500g，两袋包邮",
+  "promo": "首单立减 10 元（新客券）",
+  "target_customer": "自己冲咖啡的上班族",
+  "value_prop": "下单后 48 小时内烘焙、当日顺丰，豆子到手不超 7 天",
+  "deadline": "本月底",
+  "tone": "friendly",
+  "languages": ["zh", "en"],
+  "channels": ["whatsapp", "instagram"],
+  "cadence_days": [0, 2, 5],
+  "polish": true,
+  "llm": {"endpoint": "http://192.168.50.33:11434", "model": "qwen3.8:27b"}
+}
